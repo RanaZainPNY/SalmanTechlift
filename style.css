@@ -37,14 +37,7 @@
     font-weight: 700;
 }
 
-@media screen and (max-width: 480px) {
-    #unleash{
-        /* background-color: red; */
-        font-size: 39px;
 
-    }
-
-  }
 
 
 /* Icons Section*/
@@ -82,10 +75,29 @@
     font-size: 17px;
 }
 /* Footer CSS */
-/* #datascience{    
-    font-weight: 600;
-} */
-
 .m-border-right{
     border-right: 1px solid white;
 }
+/* Media Query */
+@media screen and (max-width: 480px) {
+    #unleash{
+        font-size: 39px;
+    }
+    .m-card{        
+        width: 100%;
+        padding: 20px;        
+    }
+    p.card-text{
+        text-align: left;
+    }
+    #getnow{
+        width: 100%;
+    }
+    .m-border-right{
+        border: none;
+    }
+    #journey{
+        font-size: 35px;
+    }    
+
+  }
