@@ -23,3 +23,11 @@
     font-size: 70px;
     font-weight: 800;
 }
+
+/* Cards Section CSS */
+#journey{
+    margin-top: 23px;
+    margin-left: 23px; 
+    font-size: 45px;
+    font-weight: 600;
+}
