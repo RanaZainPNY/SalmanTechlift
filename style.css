@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.border_red{
+    border: 2px solid red;
+}
+.border_green{
+    border: 2px solid green;
+}
+.border_blue{
+    border: 2px solid blue;
+}        
+.heading{
+    margin-top: 80px;
+    margin-left: 145px;
+}
+#data{
+    font-size: 25px;
+}
+#unleash{
+    font-size: 70px;
+    font-weight: 800;
+}
