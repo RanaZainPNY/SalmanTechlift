@@ -2,32 +2,57 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Poppins";
 }
+
 .border_red{
     border: 2px solid red;
 }
+
 .border_green{
     border: 2px solid green;
 }
+
 .border_blue{
     border: 2px solid blue;
 }        
+
+/* Hero Section CSS */
 .heading{
     margin-top: 80px;
-    margin-left: 145px;
+    /* margin-left: 145px; */
 }
+
 #data{
     font-size: 25px;
 }
+
 #unleash{
     font-size: 70px;
     font-weight: 800;
 }
 
+/* Icons Section*/
+.ftco-section {
+    padding: 6em 0;
+    position: relative;
+}
+
 /* Cards Section CSS */
 #journey{
-    margin-top: 23px;
+    margin-top: 33px;
     margin-left: 23px; 
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 700;
 }
+
+.justify{
+    text-align: justify;
+}
+
+/* Get Started CSS */
+
+/* Footer CSS */
+/* #datascience{    
+    font-weight: 600;
+} */
