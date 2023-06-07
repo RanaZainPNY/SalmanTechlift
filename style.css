@@ -22,6 +22,10 @@
     margin-top: 80px;
     /* margin-left: 145px; */
 }
+.spacing{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
 #data{
@@ -29,7 +33,7 @@
 }
 
 #unleash{
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 700;
 }
 
@@ -45,14 +49,24 @@
 
 /* Icons Section*/
 .ftco-section {
-    padding: 6em 0;
+    padding: 3em 0;
     position: relative;
+    background-color: rgb(235, 233, 233);
+}
+.img-fluid-m{
+    height: auto !important;
+    width: 120px;
 }
 
 /* Cards Section CSS */
+.m-card{
+    border: 1px solid lightgrey;
+    width: 22rem;
+    padding: 20px;
+}
 #journey{
-    margin-top: 33px;
-    margin-left: 23px; 
+    /* margin-top: 50px;     */
+    margin-bottom: 50px;    
     font-size: 45px;
     font-weight: 700;
 }
@@ -62,8 +76,16 @@
 }
 
 /* Get Started CSS */
-
+#getnow{
+    float: right;
+    font-weight: bold;
+    font-size: 17px;
+}
 /* Footer CSS */
 /* #datascience{    
     font-weight: 600;
 } */
+
+.m-border-right{
+    border-right: 1px solid white;
+}

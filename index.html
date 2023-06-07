@@ -20,23 +20,43 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Owl Carousel -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
         integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css" />
+    <style>
+        .owl-carousel {
+            /* Customize carousel styles */
+            display: block;
+            border: 2px solid red;
+        }
+
+        .owl-carousel .item {
+            /* Customize item styles */
+            border: 2px solid green;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container-fluid ">
+
+
+
+
+
+    <div class="container">
 
         <!-- Hero Section -->
         <section>
-            <div class="container-fluid heading">
+            <div class="container heading">
                 <div class="row">
 
                     <div class="col-md-6">
@@ -57,7 +77,7 @@
                         <div class="mt-4">
                             <p id="stream" class="fs-4">
                                 A steady Stream of Insights is all that you need <br> for better decision making
-                                </pc>
+                            </p>
                         </div>
 
                         <div>
@@ -77,27 +97,27 @@
         </section>
 
         <!-- Companies Icon Section -->
-        <section class="ftco-section ftco-partner">
+        <section class="ftco-section ftco-partner spacing" >
             <div class="container">
                 <div class="row">
                     <div class="col-sm ftco-animate fadeInUp ftco-animated px-3 mt-2">
-                        <a href="#" class="partner"><img src="images/partner-1.png" class="img-fluid"
+                        <a href="#" class="partner"><img src="images/partner-1.png" class="img-fluid-m"
                                 alt="Colorlib Template"></a>
                     </div>
                     <div class="col-sm ftco-animate fadeInUp ftco-animated px-3 mt-2">
-                        <a href="#" class="partner"><img src="images/partner-2.png" class="img-fluid"
+                        <a href="#" class="partner"><img src="images/partner-2.png" class="img-fluid-m"
                                 alt="Colorlib Template"></a>
                     </div>
                     <div class="col-sm ftco-animate fadeInUp ftco-animated px-3 mt-2">
-                        <a href="#" class="partner"><img src="images/partner-3.png" class="img-fluid"
+                        <a href="#" class="partner"><img src="images/partner-3.png" class="img-fluid-m"
                                 alt="Colorlib Template"></a>
                     </div>
                     <div class="col-sm ftco-animate fadeInUp ftco-animated px-3 mt-2">
-                        <a href="#" class="partner"><img src="images/partner-4.png" class="img-fluid"
+                        <a href="#" class="partner"><img src="images/partner-4.png" class="img-fluid-m"
                                 alt="Colorlib Template"></a>
                     </div>
                     <div class="col-sm ftco-animate fadeInUp ftco-animated">
-                        <a href="#" class="partner"><img src="images/partner-5.png" class="img-fluid"
+                        <a href="#" class="partner"><img src="images/partner-5.png" class="img-fluid-m"
                                 alt="Colorlib Template"></a>
                     </div>
                 </div>
@@ -114,8 +134,8 @@
                 </div>
                 <div class="row mt-2">
                     <div class="col-md-4 mt-2">
-                        <div class="card" style="width: 20rem;">
-                            <div class="d-flex justify-content-center align-items-center" style="height: 150px;">
+                        <div class="card m-card">
+                            <div class="d-flex justify-content-start align-items-center">
                                 <img class="" src="assets/data-icon.png" alt="Card image cap" width="45px">
                             </div>
                             <div class="card-body">
@@ -128,8 +148,8 @@
 
                     </div>
                     <div class="col-md-4 mt-2">
-                        <div class="card" style="width: 20rem;">
-                            <div class="d-flex justify-content-center align-items-center" style="height: 150px;">
+                        <div class="card m-card">
+                            <div class="d-flex justify-content-start align-items-center">
                                 <img class="" src="assets/data-icon.png" alt="Card image cap" width="45px">
                             </div>
                             <div class="card-body">
@@ -142,8 +162,8 @@
 
                     </div>
                     <div class="col-md-4 mt-2">
-                        <div class="card" style="width: 20rem;">
-                            <div class="d-flex justify-content-center align-items-center" style="height: 150px;">
+                        <div class="card m-card">
+                            <div class="d-flex justify-content-start align-items-center">
                                 <img class="" src="assets/data-icon.png" alt="Card image cap" width="45px">
                             </div>
                             <div class="card-body">
@@ -163,9 +183,9 @@
         <!-- Get Started -->
         <section>
             <div class="container my-5">
-                <div class="row bg-primary" style="border-radius: 12px;">
+                <div class="row bg-primary" style="border-radius: 12px;padding: 17px">
                     <div class="col-md-5 ">
-                        <div class="ms-3">
+                        <div>
                             <div>
                                 <p class=" fs-2 text-white pt-4">
                                     Ready to Get Started?
@@ -180,8 +200,9 @@
                     </div>
                     <div class="col-md-3"></div>
                     <div class="col-md-4 p-5">
-                        <button class="btn bg-white"> <span style="font-size: 15px;">Get Started Now</span> <i
-                                class="fa-solid fa-arrow-right"></i> </button>
+                        <button id="getnow" class="btn bg-white">
+                            Get Started Now <i class="fa-solid fa-arrow-right"></i>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -191,97 +212,107 @@
         <section>
             <div class="container-fluid bg-dark text-white mt-5">
                 <div class="container">
-                    <div class="row ms-md-5 mt-3 fs-2 fw-bold">
+                    <div class="row mt-3 fs-2 fw-bold">
                         <p id="datascience" class="my-4">Our Data Science & AI Services</p>
                     </div>
+                    <!-- <div class="row"> -->
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-md-4 p-3 my-md-2 m-border-right">
+                                <div>
+                                    <img src="assets/process.png" width="48px">
+                                </div>
+                                <div class="my-3">
+                                    <p class="fs-6 fw-bold justify">
+                                        Edge AI
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="justify">
+                                        We deploy a Cloud native, Edge-first approch to maintain efficiency &
+                                        real-time performance
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4  p-3 my-md-2 m-border-right ">
+                                <div> <img src="assets/process.png" width="48px"></div>
+                                <div class="my-3">
+                                    <p class="fs-6 fw-bold justify">
+                                        AI Model Development
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="justify">
+                                        We develop Robust ML models to get ideal results and enhanced performance.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4  p-3 my-md-2">
+                                <div> <img src="assets/process.png" width="48px"></div>
+                                <div class="my-3">
+                                    <p class="fs-6 fw-bold justify">
+                                        Edge AI
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="justify">
+                                        We deploy a Cloud native, Edge-first approch to maintain efficiency &
+                                        real-time performance
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4  p-3 my-md-2 m-border-right">
+                                <div> <img src="assets/process.png" width="48px"></div>
+                                <div class="my-3">
+                                    <p class="fs-6 fw-bold justify">
+                                        Edge AI
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="justify">
+                                        We deploy a Cloud native, Edge-first approch to maintain efficiency &
+                                        real-time performance
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4  p-3 my-md-2 m-border-right">
+                                <div> <img src="assets/process.png" width="48px"></div>
+                                <div class="my-3">
+                                    <p class="fs-6 fw-bold justify">
+                                        Edge AI
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="justify">
+                                        We deploy a Cloud native, Edge-first approch to maintain efficiency &
+                                        real-time performance
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4  p-3 my-md-2">
+                                <div> <img src="assets/process.png" width="48px"></div>
+                                <div class="my-3">
+                                    <p class="fs-6 fw-bold justify">
+                                        Edge AI
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="justify">
+                                        We deploy a Cloud native, Edge-first approch to maintain efficiency &
+                                        real-time performance
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- </div> -->
                     <div class="row">
-                        <div class="container">
-                            <div class="row ">
-                                <div class="col-md-4 p-3 my-md-2">
-                                    <div>
-                                        <img src="assets/process.png" width="48px">
-                                    </div>
-                                    <div class="my-3">
-                                        <p class="fs-6 fw-bold justify">
-                                            Edge AI
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <p class="justify">
-                                            We deploy a Cloud native, Edge-first approch to maintain efficiency &
-                                            real-time performance
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4  p-3 my-md-2">
-                                    <div> <img src="assets/process.png" width="48px"></div>
-                                    <div class="my-3">
-                                        <p class="fs-6 fw-bold justify">
-                                            AI Model Development
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <p class="justify">
-                                            We develop Robust ML models to get ideal results and enhanced performance.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4  p-3 my-md-2">
-                                    <div> <img src="assets/process.png" width="48px"></div>
-                                    <div class="my-3">
-                                        <p class="fs-6 fw-bold justify">
-                                            Edge AI
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <p class="justify">
-                                            We deploy a Cloud native, Edge-first approch to maintain efficiency &
-                                            real-time performance
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4  p-3 my-md-2">
-                                    <div> <img src="assets/process.png" width="48px"></div>
-                                    <div class="my-3">
-                                        <p class="fs-6 fw-bold justify">
-                                            Edge AI
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <p class="justify">
-                                            We deploy a Cloud native, Edge-first approch to maintain efficiency &
-                                            real-time performance
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4  p-3 my-md-2">
-                                    <div> <img src="assets/process.png" width="48px"></div>
-                                    <div class="my-3">
-                                        <p class="fs-6 fw-bold justify">
-                                            Edge AI
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <p class="justify">
-                                            We deploy a Cloud native, Edge-first approch to maintain efficiency &
-                                            real-time performance
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4  p-3 my-md-2">
-                                    <div> <img src="assets/process.png" width="48px"></div>
-                                    <div class="my-3">
-                                        <p class="fs-6 fw-bold justify">
-                                            Edge AI
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <p class="justify">
-                                            We deploy a Cloud native, Edge-first approch to maintain efficiency &
-                                            real-time performance
-                                        </p>
-                                    </div>
-                                </div>
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center my-3">
+                                <button class="btn btn-primary py-2 my-3 fs-5">
+                                    <span class="mx-1">Unlock Powerful Insights</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
                             </div>
                         </div>
 
@@ -289,10 +320,19 @@
                 </div>
             </div>
         </section>
-
-
-
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                items: 3, // Adjust the number of items displayed
+                loop: true, // Enable looping
+                autoplay: true, // Enable autoplay
+                // Add more options as needed
+            });
+        });
+    </script>
+
 </body>
 
 </html>
