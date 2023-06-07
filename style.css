@@ -23,14 +23,25 @@
     /* margin-left: 145px; */
 }
 
+
 #data{
     font-size: 25px;
 }
 
 #unleash{
-    font-size: 70px;
-    font-weight: 800;
+    font-size: 60px;
+    font-weight: 700;
 }
+
+@media screen and (max-width: 480px) {
+    #unleash{
+        /* background-color: red; */
+        font-size: 39px;
+
+    }
+
+  }
+
 
 /* Icons Section*/
 .ftco-section {
